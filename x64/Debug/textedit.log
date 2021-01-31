@@ -1,0 +1,58 @@
+﻿Build started 9/26/2020 5:54:01 AM.
+     1>Project "D:\dev\TKTextEditor\textedit\textedit.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>CustomBuild:
+         Moc'ing textedit.h...
+         Rcc'ing textedit.qrc...
+         Uic'ing mainwindow.ui...
+         Moc'ing cxtextedit.h...
+         Moc'ing cxpagelabel.h...
+         Moc'ing cxreslistwidget.h...
+         Moc'ing cxchapterlist.h...
+         Moc'ing cxsmalltext.h...
+         Uic'ing dlg_small_text.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtPrintSupport /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtWidgets /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtGui /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtCore /Idebug /I"C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\mkspecs\win32-msvc2012" /I.\GeneratedFiles /I.\ /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 cxchapterlist.cpp cxpagelabel.cpp cxreslistwidget.cpp cxsmalltext.cpp cxtextedit.cpp GeneratedFiles\Debug\moc_cxchapterlist.cpp GeneratedFiles\Debug\moc_cxpagelabel.cpp GeneratedFiles\Debug\moc_cxreslistwidget.cpp GeneratedFiles\Debug\moc_cxsmalltext.cpp GeneratedFiles\Debug\moc_cxtextedit.cpp GeneratedFiles\Debug\moc_textedit.cpp main.cpp textedit.cpp
+         cxchapterlist.cpp
+         cxpagelabel.cpp
+     1>cxpagelabel.cpp(21): warning C4100: 'event' : unreferenced formal parameter
+     1>cxpagelabel.cpp(32): warning C4100: 'ev' : unreferenced formal parameter
+         cxreslistwidget.cpp
+         cxsmalltext.cpp
+         cxtextedit.cpp
+         moc_cxchapterlist.cpp
+         moc_cxpagelabel.cpp
+         moc_cxreslistwidget.cpp
+         moc_cxsmalltext.cpp
+         moc_cxtextedit.cpp
+         moc_textedit.cpp
+         main.cpp
+         textedit.cpp
+     1>textedit.cpp(9): warning C4100: 'parent' : unreferenced formal parameter
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtPrintSupport /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtWidgets /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtGui /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtCore /Idebug /I"C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\mkspecs\win32-msvc2012" /I.\GeneratedFiles /I.\ /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\qrc_textedit.cpp
+         qrc_textedit.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D _DEBUG /l"0x0409" /nologo /fo"x64\Debug\textedit.res" textedit.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\dev\TKTextEditor\textedit\x64\Debug\\textedit.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib /LIBPATH:C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib qtmaind.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5PrintSupportd.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5Guid.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5Cored.lib libEGLd.lib libGLESv2d.lib gdi32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\dev\TKTextEditor\textedit\x64\Debug\textedit.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"  /SUBSYSTEM:WINDOWS x64\Debug\textedit.res
+         x64\Debug\cxchapterlist.obj
+         x64\Debug\cxpagelabel.obj
+         x64\Debug\cxreslistwidget.obj
+         x64\Debug\cxsmalltext.obj
+         x64\Debug\cxtextedit.obj
+         x64\Debug\moc_cxchapterlist.obj
+         x64\Debug\moc_cxpagelabel.obj
+         x64\Debug\moc_cxreslistwidget.obj
+         x64\Debug\moc_cxsmalltext.obj
+         x64\Debug\moc_cxtextedit.obj
+         x64\Debug\moc_textedit.obj
+         x64\Debug\qrc_textedit.obj
+         x64\Debug\main.obj
+         x64\Debug\textedit.obj
+         textedit.vcxproj -> D:\dev\TKTextEditor\textedit\x64\Debug\textedit.exe
+     1>Done Building Project "D:\dev\TKTextEditor\textedit\textedit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.14

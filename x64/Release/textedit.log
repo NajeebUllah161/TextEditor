@@ -1,0 +1,55 @@
+﻿Build started 10/1/2020 9:51:20 AM.
+     1>Project "D:\dev\TKTextEditor\textedit\textedit.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtPrintSupport /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtWidgets /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtGui /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtCore /Irelease /I"C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\mkspecs\win32-msvc2012" /I.\GeneratedFiles /I.\ /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\ActiveQt /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtXml /Zi /nologo /W3 /WX- /O2 /D _WINDOWS /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NO_DEBUG /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /D QT_XML_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 textedit.cpp
+         textedit.cpp
+     1>textedit.cpp(29): warning C4100: 'parent' : unreferenced formal parameter
+     1>textedit.cpp(614): warning C4100: 'format' : unreferenced formal parameter
+     1>textedit.cpp(958): warning C4101: 'j' : unreferenced local variable
+     1>textedit.cpp(1101): warning C4100: 'event' : unreferenced formal parameter
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\\textedit.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib /LIBPATH:C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib qtmain.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5PrintSupport.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5Widgets.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5Gui.lib C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\lib\Qt5Core.lib libEGL.lib libGLESv2.lib gdi32.lib user32.lib Qt5AxContainer.lib Qt5AxBase.lib Qt5Xml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\Bin\textedit.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"  /SUBSYSTEM:WINDOWS x64\Release\textedit.res
+         x64\Release\centeredtoolbuttonstyle.obj
+         x64\Release\cxallchapterdlg.obj
+         x64\Release\cxcenterbutton.obj
+         x64\Release\cxchapterlist.obj
+         x64\Release\cxcolorbutton.obj
+         x64\Release\cxcolormenu.obj
+         x64\Release\cxcolorwidget.obj
+         x64\Release\cxcontentlabel.obj
+         x64\Release\cxpagebutton.obj
+         x64\Release\cxpagelabel.obj
+         x64\Release\cxpagemenu.obj
+         x64\Release\cxpreviewlabel.obj
+         x64\Release\cxreslistwidget.obj
+         x64\Release\cxsmalltext.obj
+         x64\Release\cxtextedit.obj
+         x64\Release\cxwordhandler.obj
+         x64\Release\qrc_textedit.obj
+         x64\Release\moc_centeredtoolbuttonstyle.obj
+         x64\Release\moc_cxallchapterdlg.obj
+         x64\Release\moc_cxcenterbutton.obj
+         x64\Release\moc_cxchapterlist.obj
+         x64\Release\moc_cxcolorbutton.obj
+         x64\Release\moc_cxcolormenu.obj
+         x64\Release\moc_cxcolorwidget.obj
+         x64\Release\moc_cxcontentlabel.obj
+         x64\Release\moc_cxpagebutton.obj
+         x64\Release\moc_cxpagelabel.obj
+         x64\Release\moc_cxpagemenu.obj
+         x64\Release\moc_cxpreviewlabel.obj
+         x64\Release\moc_cxreslistwidget.obj
+         x64\Release\moc_cxsmalltext.obj
+         x64\Release\moc_cxtextedit.obj
+         x64\Release\moc_cxwordhandler.obj
+         x64\Release\moc_textedit.obj
+         x64\Release\main.obj
+         x64\Release\textedit.obj
+         textedit.vcxproj -> D:\dev\TKTextEditor\textedit\..\Bin\textedit.exe
+     1>Done Building Project "D:\dev\TKTextEditor\textedit\textedit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.62
